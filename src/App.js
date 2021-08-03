@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './main.css';
+import Header from './components/Header';
+import Asidenav from './components/Asidenav';
+import Aside2 from './components/Aside2';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import Menu from './components/Menu';
+import Modal from './components/Modal';
+
+//useContext
+import StepState from "./context/Step/StepState";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return ( 
+    <StepState>
+        <div className="Grilla">      
+        <Header />
+        <Menu />
+        <Asidenav />
+        <Content />
+        <Aside2 />
+        {/* <Footer /> */}
+        <Modal />
+
+      </div>
+    </StepState>
+    
+
+      );
 }
+
+
 
 export default App;
