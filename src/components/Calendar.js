@@ -19,8 +19,6 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(1),
     padding: '1px',
     width: '250px',
-    
-    // fontSize:'20pt',
   },
 
 

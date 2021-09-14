@@ -1,19 +1,7 @@
 import React, {useContext} from 'react'
-import {makeStyles} from "@material-ui/core"
-import { chica1, chica2, chica3, chica4, chica5, dog1 } from '../img'
+import { chica1, chica3, chica4, chica5, } from '../img'
 import StepContext from "../context/Step/StepContext";
-import Content from './Content';
 
-// const useStyles = makeStyles(theme => ({
-// img:{
-//     [theme.breakpoints.down('sm')]: {
-//         width:"100px"
-//     },
-//     [theme.breakpoints.up('md')]: {
-    
-//     },
-// }
-// }))
 
 // tradicional
 function Asidenav () {
