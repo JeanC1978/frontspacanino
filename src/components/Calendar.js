@@ -4,32 +4,24 @@ import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    
     display: 'flex',
     flexWrap: 'wrap',
     background:'#dfdff2',
     borderRadius:'10px',
     padding:'10px',
-    
   },
 
   textField: {
-    
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
     padding: '1px',
     width: '250px',
   },
-
-
 }));
 
 export default function DateAndTimePickers({date,handleChangeInput}) {
   const classes = useStyles();
-
-  
   return (
-    
     <form className={classes.container} noValidate sx sm md lg>
       <TextField
         id="datetime-local"

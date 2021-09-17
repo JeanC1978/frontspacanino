@@ -1,17 +1,9 @@
 import React, { useContext } from 'react';
-import {
-	Button,
-	StepLabel,
-	Stepper,
-	Typography,
-	makeStyles,
-	Step,
-} from '@material-ui/core';
+import {Button,StepLabel,Stepper,Typography,makeStyles,Step} from '@material-ui/core';
 import Dataform from './DataForm';
 import Styleform from './StyleForm';
 import DateForm from './DateForm';
 import Modal from './Modal';
-import { Rowing } from '@material-ui/icons';
 import Icon from '@material-ui/core/Icon';
 import StepContext from '../context/Step/StepContext';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Steper from './Steper';
+
 
 const useStyles = makeStyles((theme) => ({
 	root: {

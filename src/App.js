@@ -16,13 +16,9 @@ function App() {
 		<StepState>
 			<div className="Grilla">
 				<Menu />
-				{/* <Header /> */}
-
 				<Asidenav />
 				<Content />
-				{/* <Aside2 /> */}
 				<Stepper />
-				{/* <Footer /> */}
 				<Modal />
 			</div>
 		</StepState>
