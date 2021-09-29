@@ -92,7 +92,7 @@ export default function MyCustomSteper() {
 
 	async function getData() {
 		await fetch(
-			`http://localhost:3000/api?raza=${values.raza}&tamano=${values.tamano}`
+			`${process.env.REACT_APP_URL_API}/api?raza=${values.raza}&tamano=${values.tamano}`
 		)
 			.then((response) => response.json())
 			.then((res) => {
@@ -127,7 +127,6 @@ export default function MyCustomSteper() {
 
 	return (
 		<div className="formulariook">
-			{JSON.stringify(values)}
 			<Stepper
 				activeStep={activeStep}
 				alternativeLabel
